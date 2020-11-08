@@ -1801,13 +1801,13 @@ class tcIdentificacaoRps(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Numero = Numero
         self.validate_tsNumeroRps(self.Numero)
-        self.Numero_nsprefix_ = None
+        self.Numero_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('tcIdentificacaoRps')
         self.Serie = Serie
         self.validate_tsSerieRps(self.Serie)
-        self.Serie_nsprefix_ = None
+        self.Serie_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('tcIdentificacaoRps')
         self.Tipo = Tipo
         self.validate_tsTipoRps(self.Tipo)
-        self.Tipo_nsprefix_ = None
+        self.Tipo_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('tcIdentificacaoRps')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -1973,10 +1973,10 @@ class tcIdentificacaoPrestador(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Cnpj = Cnpj
         self.validate_tsCnpj(self.Cnpj)
-        self.Cnpj_nsprefix_ = None
+        self.Cnpj_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('tcIdentificacaoPrestador')
         self.InscricaoMunicipal = InscricaoMunicipal
         self.validate_tsInscricaoMunicipal(self.InscricaoMunicipal)
-        self.InscricaoMunicipal_nsprefix_ = None
+        self.InscricaoMunicipal_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('tcIdentificacaoPrestador')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(

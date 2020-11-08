@@ -967,7 +967,7 @@ class CancelarNfseEnvio(GeneratedsSuper):
         self.gds_elementtree_node_ = None
         self.original_tagname_ = None
         self.parent_object_ = kwargs_.get('parent_object_')
-        self.ns_prefix_ = None
+        self.ns_prefix_ = GenerateDSNamespaceTypePrefixes_.get('CancelarNfseEnvio')
         self.Pedido = Pedido
         self.Pedido_nsprefix_ = None
         self.Signature = Signature
@@ -3932,19 +3932,19 @@ class tcIdentificacaoNfse(GeneratedsSuper):
         self.gds_elementtree_node_ = None
         self.original_tagname_ = None
         self.parent_object_ = kwargs_.get('parent_object_')
-        self.ns_prefix_ = None
+        self.ns_prefix_ = GenerateDSNamespaceTypePrefixes_.get('tcIdentificacaoNfse')
         self.Numero = Numero
         self.validate_tsNumeroNfse(self.Numero)
-        self.Numero_nsprefix_ = None
+        self.Numero_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('tcIdentificacaoNfse')
         self.Cnpj = Cnpj
         self.validate_tsCnpj(self.Cnpj)
-        self.Cnpj_nsprefix_ = None
+        self.Cnpj_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('tcIdentificacaoNfse')
         self.InscricaoMunicipal = InscricaoMunicipal
         self.validate_tsInscricaoMunicipal(self.InscricaoMunicipal)
-        self.InscricaoMunicipal_nsprefix_ = None
+        self.InscricaoMunicipal_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('tcIdentificacaoNfse')
         self.CodigoMunicipio = CodigoMunicipio
         self.validate_tsCodigoMunicipioIbge(self.CodigoMunicipio)
-        self.CodigoMunicipio_nsprefix_ = None
+        self.CodigoMunicipio_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('tcIdentificacaoNfse')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -4724,14 +4724,14 @@ class tcInfPedidoCancelamento(GeneratedsSuper):
         self.gds_elementtree_node_ = None
         self.original_tagname_ = None
         self.parent_object_ = kwargs_.get('parent_object_')
-        self.ns_prefix_ = None
+        self.ns_prefix_ = GenerateDSNamespaceTypePrefixes_.get('tcInfPedidoCancelamento')
         self.Id = _cast(None, Id)
         self.Id_nsprefix_ = None
         self.IdentificacaoNfse = IdentificacaoNfse
         self.IdentificacaoNfse_nsprefix_ = None
         self.CodigoCancelamento = CodigoCancelamento
         self.validate_tsCodigoCancelamentoNfse(self.CodigoCancelamento)
-        self.CodigoCancelamento_nsprefix_ = None
+        self.CodigoCancelamento_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('tcInfPedidoCancelamento')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(

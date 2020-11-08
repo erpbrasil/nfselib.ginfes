@@ -1961,10 +1961,10 @@ class tcIdentificacaoPrestador(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Cnpj = Cnpj
         self.validate_tsCnpj(self.Cnpj)
-        self.Cnpj_nsprefix_ = None
+        self.Cnpj_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('tcIdentificacaoPrestador')
         self.InscricaoMunicipal = InscricaoMunicipal
         self.validate_tsInscricaoMunicipal(self.InscricaoMunicipal)
-        self.InscricaoMunicipal_nsprefix_ = None
+        self.InscricaoMunicipal_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('tcIdentificacaoPrestador')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -6052,16 +6052,16 @@ class tcLoteRps(GeneratedsSuper):
         self.Id_nsprefix_ = None
         self.NumeroLote = NumeroLote
         self.validate_tsNumeroLote(self.NumeroLote)
-        self.NumeroLote_nsprefix_ = None
+        self.NumeroLote_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('tcLoteRps')
         self.Cnpj = Cnpj
         self.validate_tsCnpj(self.Cnpj)
-        self.Cnpj_nsprefix_ = None
+        self.Cnpj_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('tcLoteRps')
         self.InscricaoMunicipal = InscricaoMunicipal
         self.validate_tsInscricaoMunicipal(self.InscricaoMunicipal)
-        self.InscricaoMunicipal_nsprefix_ = None
+        self.InscricaoMunicipal_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('tcLoteRps')
         self.QuantidadeRps = QuantidadeRps
         self.validate_tsQuantidadeRps(self.QuantidadeRps)
-        self.QuantidadeRps_nsprefix_ = None
+        self.QuantidadeRps_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('tcLoteRps')
         self.ListaRps = ListaRps
         self.ListaRps_nsprefix_ = None
     def factory(*args_, **kwargs_):

@@ -14,13 +14,13 @@ Overview
       - | |version| |wheel| |supported-versions| |supported-implementations|
         | |commits-since|
 
-.. |travis| image:: https://api.travis-ci.org/erpbrasil/nfselib.ginfes.svg?branch=master
+.. |travis| image:: https://api.travis-ci.org/erpbrasil/nfselib.ginfes.svg?branch=master_gen
     :alt: Travis-CI Build Status
     :target: https://travis-ci.org/erpbrasil/nfselib.ginfes
 
-.. |appveyor| image:: https://ci.appveyor.com/api/projects/status/github/erpbrasil/nfselib.ginfes?branch=master&svg=true
+.. |appveyor| image:: https://ci.appveyor.com/api/projects/status/github/erpbrasil/nfselib.ginfes?branch=master_gen&svg=true
     :alt: AppVeyor Build Status
-    :target: https://ci.appveyor.com/project/erpbrasil/nfselib.ginfes
+    :target: https://ci.appveyor.com/project/mileo/nfselib-ginfes
 
 .. |version| image:: https://img.shields.io/pypi/v/nfselib.ginfes.svg
     :alt: PyPI Package latest release

@@ -42,9 +42,9 @@ Overview
     :alt: Supported implementations
     :target: https://pypi.org/project/nfselib.ginfes
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/erpbrasil/nfselib.ginfes/v0.1.0.svg
+.. |commits-since| image:: https://img.shields.io/github/commits-since/erpbrasil/nfselib.ginfes/v0.2.0.svg
     :alt: Commits since latest release
-    :target: https://github.com/erpbrasil/nfselib.ginfes/compare/v0.1.0...master
+    :target: https://github.com/erpbrasil/nfselib.ginfes/compare/v0.2.0...master
 
 .. end-badges
 

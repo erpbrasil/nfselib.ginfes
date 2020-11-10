@@ -25,7 +25,7 @@ def read(*names, **kwargs):
 
 setup(
     name='nfselib.ginfes',
-    version='0.1.0',
+    version='0.2.0',
     license='MIT',
     description='Python Library to genereate GINFES NFS-E',
     long_description='%s\n%s\n%s' % (

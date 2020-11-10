@@ -8,7 +8,7 @@ Overview
     :stub-columns: 1
 
     * - tests
-      - | |travis| |appveyor|
+      - | |travis| |appveyor| |codecov|
         |
     * - package
       - | |version| |wheel| |supported-versions| |supported-implementations|
@@ -21,6 +21,10 @@ Overview
 .. |appveyor| image:: https://ci.appveyor.com/api/projects/status/github/erpbrasil/nfselib.ginfes?branch=master_gen&svg=true
     :alt: AppVeyor Build Status
     :target: https://ci.appveyor.com/project/mileo/nfselib-ginfes
+
+.. |codecov| image:: https://codecov.io/gh/erpbrasil/nfselib.ginfes/branch/master_gen/graphs/badge.svg?branch=master_gen
+    :alt: Coverage Status
+    :target: https://codecov.io/github/erpbrasil/nfselib.ginfes
 
 .. |version| image:: https://img.shields.io/pypi/v/nfselib.ginfes.svg
     :alt: PyPI Package latest release
